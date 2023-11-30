@@ -326,15 +326,27 @@ footer {
         width: 300px;
         height: 1300px;
     }
+    .contact-text {
+        padding-top: 50px;
+        display: inline-block;
+    }
     .contact-text h1 {
         width: 250px;
         height: 100px;
         font-size: 22px;
-        margin: 0px 0px 0px 15%;
+        margin: 0px 0px 0px ;
+        padding-left: 70px;
+        padding-bottom: 20px;
     }
     .container-contact p {
-        width: 250px;
-        padding-left: 50px;
+        width: 300px;
+        padding-left: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .p1 {
+        margin-left: 34px;
     }
     .card-contact {
         width: 200px;
