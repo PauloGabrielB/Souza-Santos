@@ -253,12 +253,132 @@ footer {
     font-size: 13px;
     color: var(--back)
  }
- .footer-content ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    gap: 2rem;
-    font-size: 20px;
-    color: red;
+
+ /* Versão Mobile - Responsividade */
+
+ @media  screen and (max-width: 1020px) {
     
+    /* Home */
+    .container-home {
+        flex-direction: column;
+        width: 300px;
+        height: 540px;
+        border-radius: 30px 30px 200px 200px;
+        margin: 45px;
+    
+    }
+    .container-home h1 {
+        font-size: 30px;
+        padding-top: 30px;
+        width: 300px;
+    }
+    .container-home p {
+        width: 200px;
+        font-size: 16px;
+        padding-left: 80px;
+        padding-top: 15px;
+    }
+    .container-home img {
+      display: none;
+    }
+    .container-home button {
+        margin-left: 22px;
+        margin-bottom: 20px;
+
+    }
+    /* Cabeçalho */
+    .navbar {
+        display: none;
+    }
+
+    .container-text-flex {
+        flex-direction: column;
+        width: 300px;
+    }
+    .container-text1 {
+        width: 300px;
+        height: 400px;
+        color: black;
+        background-color: #fff;
+        border: 1px solid black;
+    }
+    .container-text1 p {
+        width: 250px;
+    }
+    .container-text2 {
+        width: 300px;
+        height: 520px;
+        background: rgb(2, 49, 44);
+        color: #fff;
+        margin: 50px 0 0 0;
+    }
+    .container-text2 p {
+        width: 250px;
+        font-size: 18px;
+    }
+    .container-text3 {
+        width: 300px;
+        height: 1100px;
+    }
+    .container-text3 p {
+        width: 250px;
+
+    }
+    /* Contatos Mobile */
+    .container-contact {
+        width: 300px;
+        height: 1300px;
+    }
+    .contact-text h1 {
+        width: 250px;
+        height: 100px;
+        font-size: 22px;
+        margin: 0px 0px 0px 15%;
+    }
+    .container-contact p {
+        width: 250px;
+        padding-left: 50px;
+    }
+    .card-contact {
+        width: 200px;
+        height: 200px;
+        margin: 20px 90px 0 90px;
+
+    }
+    .card-contact img {
+        width: 200px;
+        height: 200px;
+        margin: 0 0 30px 0px;
+        align-items: center;
+        padding: 0;
+    }
+    /* Footer Mobile */
+    .footer-content {
+        padding: 0;
+        margin: 0;
+    }
+    footer h3 {
+        width: 200px;
+        font-size: 14px;
+        color: black;
+        display: fixed;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .footer-content a {
+        display: flex;
+        margin-left: 320px;
+        margin-top: 5px;
+        width: 100px;
+        color: black;
+        font-size: 18px;
+    }
+    footer {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        
+    }
  }
+
+ 
